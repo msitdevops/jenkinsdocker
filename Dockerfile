@@ -1,4 +1,4 @@
-FROM jenkins:latest
+FROM jenkins:2.138.1
 USER root
 RUN apt-get update
 RUN apt-get install -y python3.5
